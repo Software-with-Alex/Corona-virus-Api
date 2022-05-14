@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+body{ 
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 3s; 
+}
+
+.header{
+    overflow: hidden;
+    position:sticky;
+    width: 100%;
+    min-height: 120px;
+    background-color: rgb(48, 85, 120);
+    box-shadow: 0px 5px 19px 4px rgba(92,171,255,0.65);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+      
+}
+
+
+.nav-links1{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   width: 500px;
+}
+.nav-links2{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+   margin-right: 20px;
+}
+.nav-links2 a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.nav-links1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-links1 a:hover{
+    color: crimson;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.nav-links2 a:hover{
+    color: crimson;
+    transition: 1s ease;
+    cursor: pointer;
+}
+#icon-corona{
+   color: rgb(225, 129, 94);
+    height: 80px;
+    width: 80px;
+}
+.corona-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+   
+    
+}
+.hero-div{
+    box-shadow: -1px 2px 5px 5px #928f8f;
+    width: 80%;
+    font-size: 25px;
+    font-family:'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;;
+    margin: 20px;
+    padding: 20px;
+    background-color: #bafbed;
+    
+}
+.hero-main-img{
+    background-size:stretch;
+    width: 800px;
+    height: 50vh;
+}
+.person-testimonial{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 10px;
+}
+.card{
+background-color: rgb(48, 85, 120);
+color: white;
+text-align: center;
+}
+.card p{
+    padding: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.img-container-1{
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=878&q=80);
+}
+.img-container-2{
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1581594693690-517d9a71e1f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80);
+}
+.img-container-3{
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1486182706240-e597091e0cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+}
+.img-container-4{
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1576765608075-5875c74feac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=861&q=80 );
+}
+.api-section{
+    height: 70vh;
+    display: flex;
+    margin: auto 20px auto 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.section-howtoapi{
+    
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    height: 60%;
+   
+}
+.covid-api-container{
+    text-align: center;
+    height: 250px;
+    width: 40%;
+    color: rgb(13, 13, 13);
+    border-radius: 5%;
+   
+    
+}
+.flag-img{
+    height: 50px;
+    width: 50px;
+
+}
+.covid-results-container {
+    font-size: 25px;
+   padding: 30px;
+   
+   
+
+}
+
+.footer{
+   color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(48, 85, 120);
+    font-size: 20px;
+
+}
+.footer li{
+   
+    list-style: none;
+}
+
+.expert-advice{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+.expert-advice li{
+    list-style: none;
+}
+.expert-advice div{
+    margin: auto 30px auto 30px;
+}
+
+@media only screen and (max-width: 500px){
+    #icon-corona{
+        display: none;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .nav-links2{
+        display: none;
+    }
+}
